@@ -1,0 +1,36 @@
+.SidebarContainer {
+  font-size: 1.2em;
+  text-align: center;
+  width: 260px;
+  background-color: #216d9d;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li{
+    margin-top: 12px;
+  }
+
+  button {
+    width: 100px;
+    border: none;
+    background-color: white;
+    color: black;
+    height: 28px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+  }
+
+  button:hover {
+    background-color: rgb(201, 201, 201);
+    cursor: pointer;
+  }
+}
